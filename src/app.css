@@ -1,0 +1,58 @@
+@import "open-props/style";
+@import "open-props/normalize";
+
+/* themes */
+:root {
+  --brand: #6F2BFF;
+  --link: #6F2BFF;
+  --surface-1: #f7f8fd;
+  --text-1: #16151a;
+  --accent: #FFC940;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-1: #191a23;
+    --text-1: #f6eeff;
+    --accent: #FF8619;
+  }
+}
+
+/* global */
+:root {
+  font-family: var(--font-humanist);
+  font-weight: var(--font-weight-5);
+}
+
+
+.centerContainer {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  width: 30vw;             
+  margin: 0 auto;          
+}
+
+h1{
+  font-family: var(--font-industrial);
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-5);
+}
+
+h2{
+  padding-bottom: var(--size-1);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-4);
+}
+
+p{
+  font-weight: var(--font-weight-4);
+  font-family: var(--font-geometric-humanist);
+}
+
+hr{
+  padding: 0;
+  margin: var(--size-1);
+}

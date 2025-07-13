@@ -8,15 +8,15 @@
 
 {#if data}
 <section transition:slide>
-    <h4>
+    <h3>
         <a href={data.link} target="_blank">{data.title}</a>
-    </h4>
-    <h5>{data.subtitle}</h5>
+    </h3>
     <div class="tags">
         {#each data.tags as tag}
         <span class="tag">#{tag}</span>
         {/each}
     </div>
+    <h4>{data.subtitle}</h4>
     <p>
         {data.text}
     </p>
@@ -39,16 +39,25 @@
         font-size: var(--font-size-1);
     }
 
+    a{
+        color: var(--link);
+    }
+    
+    a:hover{
+        color: var(--accent);
+    }
+
     .tags{
         display: flex;
         gap: var(--size-1);
+        margin-bottom: var(--size-1);
     }
 
     .tag{
         font-size: var(--font-size-0);
-        color: var(--surface-1);
+        color: var(--text);
         font-weight: var(--font-weight-2);
-        background-color: var(--brand);
+        background-color: var(--light);
         border-radius: var(--radius-4);
         padding-inline: var(--size-1);
     }

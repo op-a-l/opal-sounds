@@ -24,7 +24,7 @@ export const projects: Project[] = [
         title: "music",
         subtitle: "mainly unreleased music",
         text: "sometimes i do music out of any context. sometimes i don't even finish songs. sometimes i am still working on it. ",
-        link: "https://soundcloud.com/tournesol-840734247/sets/the-center-of-it-all/s-KBxNkBWnJ6l?si=ed7eb5816a164b19a4992136111c93a5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        link: "https://soundcloud.com/tournesol-840734247/tracks",
         year: "2020-now",
         tags: ["music", "wip", "soundcloud"]
     },

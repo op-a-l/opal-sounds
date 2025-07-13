@@ -19,7 +19,7 @@
         <li>discussions about music</li>
         <li>custom presets</li>
         <li>custom samples</li>
-        <li>demo track</li>
+        <li>demo tracks</li>
         <li>editing and mixing for audio formats</li>
         <li>feedbacks on audio software</li>
     </ul>

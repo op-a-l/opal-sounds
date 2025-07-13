@@ -3,19 +3,22 @@
 
 /* themes */
 :root {
-  --brand: #6F2BFF;
-  --link: #6F2BFF;
-  --surface-1: #f7f8fd;
-  --text-1: #16151a;
-  --accent: #FFC940;
+  --brand: #FF75FF;
+  --link: #4b75ff;
+  --surface-1: #F6F0ED;
+  --text-1: #222222;
+  --accent: #3CFF3C;
+  --light: #A790A799;
 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface-1: #191a23;
-    --text-1: #f6eeff;
-    --accent: #FF8619;
+    --brand: #3CFF3C;
+    --surface-1: #222222;
+    --text-1: #F6F0ED;
+    --accent: #FF75FF;
+    --link: #829fff;
   }
 }
 
@@ -23,6 +26,11 @@
 :root {
   font-family: var(--font-humanist);
   font-weight: var(--font-weight-5);
+}
+
+::selection {
+  background: rgba(200,200,200,0.4);
+  text-shadow: #222222;
 }
 
 
@@ -45,6 +53,20 @@ h2{
   font-family: var(--font-mono);
   font-size: var(--font-size-4);
   font-weight: var(--font-weight-4);
+}
+
+h3{
+  padding-bottom: var(--size-1);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-4);
+}
+
+h4{
+  padding-bottom: var(--size-1);
+  font-family: var(--font-humanist);
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-6);
 }
 
 p{

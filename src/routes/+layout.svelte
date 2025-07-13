@@ -4,9 +4,9 @@
     import "../app.css";
 </script>
 
-<nav>
+<!-- <nav>
     <Navbar />
-</nav>
+</nav> -->
 
 <div class="centerContainer">
     <slot />

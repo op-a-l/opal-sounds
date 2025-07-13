@@ -1,6 +1,7 @@
 <script lang="ts">
     import Navbar from "$lib/global/navbar.svelte";
     import Foot from "$lib/global/foot.svelte";
+    import "../app.css";
 </script>
 
 <nav>

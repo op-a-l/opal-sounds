@@ -42,7 +42,7 @@ export const projects: Project[] = [
         title: "this-website",
         subtitle: "very cool",
         text: "i made this website myself. i am probably not a great developer but i am having a good time doing it.",
-        link: "https://github.com/op-a-l/my-app",
+        link: "https://github.com/op-a-l/opal-sounds",
         year: "2024",
         tags: ["programming", "sveltekit", "cool"]
     },

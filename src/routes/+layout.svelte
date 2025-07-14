@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Navbar from "$lib/global/navbar.svelte";
-    import Foot from "$lib/global/foot.svelte";
-    import "../app.css";
+	import Navbar from '$lib/global/navbar.svelte';
+	import Foot from '$lib/global/foot.svelte';
+	import '../app.css';
 </script>
 
 <!-- <nav>
@@ -9,15 +9,15 @@
 </nav> -->
 
 <div class="centerContainer">
-    <slot />
+	<slot />
 </div>
 
 <footer>
-    <Foot />
+	<Foot />
 </footer>
 
 <style>
-    nav{
-        position: fixed;
-    }
+	nav {
+		position: fixed;
+	}
 </style>

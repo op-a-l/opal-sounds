@@ -1,18 +1,14 @@
 <section>
-    <a href="mailto:opal.elektronaut@gmail.com">
-        opal.elektronaut@gmail.com
-    </a>
+	<a href="mailto:opal.elektronaut@gmail.com"> opal.elektronaut@gmail.com </a>
 </section>
 
 <style>
-    
-    section{
-        padding: var(--size-5);
-        color: var(--link);
-    }
+	section {
+		padding: var(--size-5);
+		color: var(--link);
+	}
 
-    a{
-        color: inherit;
-    }
-
+	a {
+		color: inherit;
+	}
 </style>

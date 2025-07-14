@@ -1,80 +1,78 @@
-@import "open-props/style";
-@import "open-props/normalize";
+@import 'open-props/style';
+@import 'open-props/normalize';
 
 /* themes */
 :root {
-  --brand: #FF75FF;
-  --link: #4b75ff;
-  --surface-1: #F6F0ED;
-  --text-1: #222222;
-  --accent: #3CFF3C;
-  --light: #A790A799;
-
+	--brand: #ff75ff;
+	--link: #4b75ff;
+	--surface-1: #f6f0ed;
+	--text-1: #222222;
+	--accent: #3cff3c;
+	--light: #a790a799;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --brand: #3CFF3C;
-    --surface-1: #222222;
-    --text-1: #F6F0ED;
-    --accent: #FF75FF;
-    --link: #829fff;
-  }
+	:root {
+		--brand: #3cff3c;
+		--surface-1: #222222;
+		--text-1: #f6f0ed;
+		--accent: #ff75ff;
+		--link: #829fff;
+	}
 }
 
 /* global */
 :root {
-  font-family: var(--font-humanist);
-  font-weight: var(--font-weight-5);
+	font-family: var(--font-humanist);
+	font-weight: var(--font-weight-5);
 }
 
 ::selection {
-  background: rgba(200,200,200,0.4);
-  text-shadow: #222222;
+	background: rgba(200, 200, 200, 0.4);
+	text-shadow: #222222;
 }
-
 
 .centerContainer {
-  display: flex;
-  flex-direction: column;  
-  justify-content: center; 
-  width: 30vw;             
-  margin: 0 auto;          
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30vw;
+	margin: 0 auto;
 }
 
-h1{
-  font-family: var(--font-industrial);
-  font-size: var(--font-size-5);
-  font-weight: var(--font-weight-5);
+h1 {
+	font-family: var(--font-industrial);
+	font-size: var(--font-size-5);
+	font-weight: var(--font-weight-5);
 }
 
-h2{
-  padding-bottom: var(--size-1);
-  font-family: var(--font-mono);
-  font-size: var(--font-size-4);
-  font-weight: var(--font-weight-4);
+h2 {
+	padding-bottom: var(--size-1);
+	font-family: var(--font-mono);
+	font-size: var(--font-size-4);
+	font-weight: var(--font-weight-4);
 }
 
-h3{
-  padding-bottom: var(--size-1);
-  font-family: var(--font-mono);
-  font-size: var(--font-size-3);
-  font-weight: var(--font-weight-4);
+h3 {
+	padding-bottom: var(--size-1);
+	font-family: var(--font-mono);
+	font-size: var(--font-size-3);
+	font-weight: var(--font-weight-4);
 }
 
-h4{
-  padding-bottom: var(--size-1);
-  font-family: var(--font-humanist);
-  font-size: var(--font-size-1);
-  font-weight: var(--font-weight-6);
+h4 {
+	padding-bottom: var(--size-1);
+	font-family: var(--font-humanist);
+	font-size: var(--font-size-1);
+	font-weight: var(--font-weight-6);
 }
 
-p{
-  font-weight: var(--font-weight-4);
-  font-family: var(--font-geometric-humanist);
+p {
+	font-weight: var(--font-weight-4);
+	font-family: var(--font-geometric-humanist);
 }
 
-hr{
-  padding: 0;
-  margin: var(--size-1);
+hr {
+	padding: 0;
+	margin: var(--size-1);
 }

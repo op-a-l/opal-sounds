@@ -23,7 +23,7 @@ export const projects: Project[] = [
 		id: 'sound-001',
 		title: 'music',
 		subtitle: 'mainly unreleased music',
-		text: "sometimes i do music out of any context. sometimes i don't even finish songs. sometimes i am still working on it. ",
+		text: "sometimes i do music. sometimes i finish songs. sometimes i release unfinished ones. ",
 		link: 'https://soundcloud.com/underscore-opal/tracks',
 		year: '2020-now',
 		tags: ['music', 'wip', 'soundcloud']

@@ -24,7 +24,7 @@ export const projects: Project[] = [
 		title: 'music',
 		subtitle: 'mainly unreleased music',
 		text: "sometimes i do music out of any context. sometimes i don't even finish songs. sometimes i am still working on it. ",
-		link: 'https://soundcloud.com/tournesol-840734247/tracks',
+		link: 'https://soundcloud.com/underscore-opal/tracks',
 		year: '2020-now',
 		tags: ['music', 'wip', 'soundcloud']
 	},

@@ -49,7 +49,7 @@ export const projects: Project[] = [
 
 	{
 	    id: "sound-003",
-	    title: "Pigments 6 - Explorations presets",
+	    title: "Pigments 6 presets",
 	    subtitle: "sound design for Arturia",
 	    text: "i made some presets for a pigments 6 expansion for Arturia. I was lucky enough to work with some talented sound designers. That made me happy !",
 	    link: "https://www.arturia.com/store/fr/presets-sound-banks/modal_explorations",

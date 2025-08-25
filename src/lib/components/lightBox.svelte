@@ -30,7 +30,7 @@
 		min-width: 40vw;
 		background-image: var(--noise-filter-2);
 		position: relative;
-		left: 10vw;
+		left: var(--size-5);
 		z-index: 1;
 	}
 

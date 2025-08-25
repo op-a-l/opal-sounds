@@ -11,7 +11,7 @@
 <hr />
 
 <section>
-	<div>
+	<div class="projectsList">
 		{#each projects as project}
 			<ul>
 				<li>
@@ -23,7 +23,9 @@
 		{/each}
 	</div>
 	{#if lightBox}
+	<div class="lightbox">
 		<LightBox />
+	</div>
 	{/if}
 </section>
 
@@ -31,10 +33,22 @@
 	section {
 		display: flex;
 		margin-bottom: var(--size-9);
+		align-items: center;
+		width: fit-content;
+		justify-content: left;
 	}
 
-	div {
+	.projectsList {
+		width: 100%;
 		min-width: fit-content;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		background-color: var(--secondary);
+	}
+
+	.lightbox{
+		align-self: flex-start;
 	}
 
 	button {

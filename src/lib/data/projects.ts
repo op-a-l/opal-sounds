@@ -45,7 +45,20 @@ export const projects: Project[] = [
 		link: 'https://github.com/op-a-l/opal-sounds',
 		year: '2024',
 		tags: ['programming', 'sveltekit', 'cool']
+	},
+
+	{
+	    id: "sound-003",
+	    title: "Pigments 6 - Explorations presets",
+	    subtitle: "sound design for Arturia",
+	    text: "i made some presets for a pigments 6 expansion for Arturia. I was lucky enough to work with some talented sound designers. That made me happy !",
+	    link: "https://www.arturia.com/store/fr/presets-sound-banks/modal_explorations",
+	    year: "2025",
+	    image: "",
+	    imageAlt: "",
+	    tags: ["sound-design", "arturia", "presets"]
 	}
+
 	// {
 	//     id: "",
 	//     title: "",

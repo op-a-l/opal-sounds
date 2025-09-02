@@ -22,6 +22,7 @@
 			</ul>
 		{/each}
 	</div>
+	<hr>
 	{#if lightBox}
 	<div class="lightbox">
 		<LightBox />
@@ -32,9 +33,10 @@
 <style>
 	section {
 		display: flex;
+		flex-direction: column;
 		margin-bottom: var(--size-9);
-		align-items: center;
-		width: fit-content;
+		align-items: start;
+		width: 100%;
 		justify-content: left;
 	}
 
@@ -48,7 +50,9 @@
 	}
 
 	.lightbox{
-		align-self: flex-start;
+		/* align-self: flex-start; */
+		margin-top: var(--size-2);
+		width: 100%;
 	}
 
 	button {

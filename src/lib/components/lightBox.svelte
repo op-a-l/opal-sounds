@@ -2,12 +2,12 @@
 	import type { Project } from '$lib/data/projects';
 	import { projects } from '$lib/data/projects';
 	import { lightBox } from '$lib/stores/lightBox';
-	import { slide } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	$: data = projects.find((p) => p.id === $lightBox.content);
 </script>
 
 {#if data}
-	<section transition:slide>
+	<section transition:fade>
 		<h3>
 			<a href={data.link} target="_blank">{data.title}</a>
 		</h3>
@@ -26,12 +26,12 @@
 <style>
 	section {
 		font-family: var(--font-geometric-humanist);
-		max-width: 70vw;
-		min-width: 40vw;
 		background-image: var(--noise-filter-2);
-		position: relative;
-		left: var(--size-5);
+		box-shadow: var(--inner-shadow-4);
+		/* position: relative; */
 		z-index: 1;
+		width: 100%;
+		padding: var(--size-3);
 	}
 
 	p {
@@ -50,7 +50,7 @@
 	.tags {
 		display: flex;
 		gap: var(--size-1);
-		margin-bottom: var(--size-1);
+		margin-block: var(--size-1);
 	}
 
 	.tag {
@@ -60,5 +60,8 @@
 		background-color: var(--light);
 		border-radius: var(--radius-4);
 		padding-inline: var(--size-1);
+	}
+	.tag:hover{
+		transform: translate(1px, 1px);
 	}
 </style>

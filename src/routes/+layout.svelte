@@ -15,9 +15,3 @@
 <footer>
 	<Foot />
 </footer>
-
-<style>
-	nav {
-		position: fixed;
-	}
-</style>

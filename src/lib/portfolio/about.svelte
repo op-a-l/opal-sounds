@@ -9,9 +9,8 @@
 	<div class="flex">
 		<div class="content">
 			<p>
-				I compose and design sounds under the name <span class="name">_opal</span>
-			</p>
-			<p>
+				I compose and design sounds under the name <span class="name">_opal</span>.
+
 				My work explores how digital environments can evoke, transform and reinvent reality. Whether
 				through synths presets, Max patches or recorded textures, I aim to create expressive and
 				sensitive sounds anchored in listening.
@@ -52,6 +51,6 @@
 
 	.name {
 		color: var(--brand);
-		font-weight: bold;
+		font-weight: var(--font-weight-3);
 	}
 </style>

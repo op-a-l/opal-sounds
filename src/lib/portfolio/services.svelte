@@ -34,8 +34,8 @@
 	li {
 		margin: 0;
 		padding: 0;
-		list-style: georgian;
-		font-weight: var(--font-weight-6);
+		list-style: square;
+		font-weight: var(--font-weight-5);
 	}
 
 	p {

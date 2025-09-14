@@ -14,7 +14,7 @@ export const projects: Project[] = [
 	{
 		id: 'dev-001',
 		title: 'max-workspace',
-		text: 'max-workspace is a set of devices made with max msp. it is still in development. the goal of this project is to provide open source dsp material to anyone for free.',
+		text: 'max-workspace is a set of devices made with max msp. it is still in development and not always up to date. the goal of this project is to provide open source dsp material to anyone for free.',
 		link: 'https://github.com/op-a-l/max-workspace',
 		year: '2024-now',
 		tags: ['dsp', 'programming', 'audio']

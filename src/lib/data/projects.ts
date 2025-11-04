@@ -23,7 +23,7 @@ export const projects: Project[] = [
 		id: 'sound-001',
 		title: 'music',
 		subtitle: 'mainly unreleased music',
-		text: "sometimes i do music. sometimes i finish songs. sometimes i release unfinished ones. ",
+		text: "sometimes i do music. sometimes i finish songs. sometimes i release unfinished ones.",
 		link: 'https://soundcloud.com/underscore-opal/tracks',
 		year: '2020-now',
 		tags: ['music', 'wip', 'soundcloud']
@@ -32,7 +32,7 @@ export const projects: Project[] = [
 		id: 'sound-002',
 		title: 'le fait du prince',
 		subtitle: 'an audio series',
-		text: 'i cut and edit samples for this french audio series on the first season.',
+		text: 'i cut and clean samples for editing on the first season of this incredible audio series.',
 		link: 'https://www.youtube.com/@LeFaitduPrince',
 		year: '2024',
 		tags: ['series', 'audio', 'sound-design']
@@ -51,7 +51,7 @@ export const projects: Project[] = [
 	    id: "sound-003",
 	    title: "pigments 6 presets",
 	    subtitle: "sound design for Arturia",
-	    text: "i made some presets for a pigments 6 expansion for Arturia. I was lucky enough to work with some talented sound designers. That made me happy.",
+	    text: "i made some presets for a pigments 6 expansion for Arturia. i had the chance to work with some talented sound designers. that made me very happy.",
 	    link: "https://www.arturia.com/store/fr/presets-sound-banks/modal_explorations",
 	    year: "2025",
 	    image: "",

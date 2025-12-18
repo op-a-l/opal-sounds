@@ -49,10 +49,22 @@ export const projects: Project[] = [
 
 	{
 	    id: "sound-003",
-	    title: "pigments 6 presets",
+	    title: "pigments 6 - modal explorations",
 	    subtitle: "sound design for Arturia",
 	    text: "i made some presets for a pigments 6 expansion for Arturia. i had the chance to work with some talented sound designers. that made me very happy.",
 	    link: "https://www.instagram.com/reel/DN54GOuiO0h/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+	    year: "2025",
+	    image: "",
+	    imageAlt: "",
+	    tags: ["sound-design", "arturia", "presets"]
+	},
+
+	{
+	    id: "sound-004",
+	    title: "pigments 7 - factory presets",
+	    subtitle: "sound design for Arturia",
+	    text: "i've created some of the factory presets for Arturia's pigments 7. ",
+	    link: "",
 	    year: "2025",
 	    image: "",
 	    imageAlt: "",

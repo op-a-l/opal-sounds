@@ -9,7 +9,11 @@
 {#if data}
 	<section transition:fade>
 		<h3>
-			<a href={data.link} target="_blank">{data.title}</a>
+			{#if data.link}
+				<a href={data.link} target="_blank">{data.title}</a>
+			{:else}
+				{data.title}
+			{/if}
 		</h3>
 		<div class="tags">
 			{#each data.tags as tag}

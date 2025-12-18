@@ -36,7 +36,7 @@ export const projects: Project[] = [
 	    image: "",
 	    imageAlt: "",
 	    tags: ["sound-design", "arturia", "presets"]
-	}
+	},
 
 	//music
 	{
@@ -79,7 +79,7 @@ export const projects: Project[] = [
 		link: 'https://github.com/op-a-l/opal-sounds',
 		year: '2024',
 		tags: ['programming', 'sveltekit', 'cool']
-	},
+	}
 
 
 	// {

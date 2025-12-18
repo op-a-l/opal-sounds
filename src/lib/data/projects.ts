@@ -11,42 +11,8 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-	{
-		id: 'dev-001',
-		title: 'max-workspace',
-		text: 'max-workspace is a set of devices made with max msp. it is still in development and not always up to date. the goal of this project is to provide open source dsp material to anyone for free.',
-		link: 'https://github.com/op-a-l/max-workspace',
-		year: '2024-now',
-		tags: ['dsp', 'programming', 'audio']
-	},
-	{
-		id: 'sound-001',
-		title: 'music',
-		subtitle: 'mainly unreleased music',
-		text: "sometimes i do music. sometimes i finish songs. sometimes i release unfinished ones.",
-		link: 'https://soundcloud.com/underscore-opal/tracks',
-		year: '2020-now',
-		tags: ['music', 'wip', 'soundcloud']
-	},
-	{
-		id: 'sound-002',
-		title: 'le fait du prince',
-		subtitle: 'an audio series',
-		text: 'i cut and clean samples for editing on the first season of this incredible audio series.',
-		link: 'https://www.youtube.com/@LeFaitduPrince',
-		year: '2024',
-		tags: ['series', 'audio', 'sound-design']
-	},
-	{
-		id: 'dev-002',
-		title: 'this-website',
-		subtitle: 'very cool',
-		text: 'i made this website myself. i am probably not a great developer but i am having a good time doing it.',
-		link: 'https://github.com/op-a-l/opal-sounds',
-		year: '2024',
-		tags: ['programming', 'sveltekit', 'cool']
-	},
 
+		//Pigments 6
 	{
 	    id: "sound-003",
 	    title: "pigments 6 - modal explorations",
@@ -59,6 +25,7 @@ export const projects: Project[] = [
 	    tags: ["sound-design", "arturia", "presets"]
 	},
 
+	//Pigments 7
 	{
 	    id: "sound-004",
 	    title: "pigments 7 - factory presets",
@@ -70,6 +37,50 @@ export const projects: Project[] = [
 	    imageAlt: "",
 	    tags: ["sound-design", "arturia", "presets"]
 	}
+
+	//music
+	{
+		id: 'sound-001',
+		title: 'music',
+		subtitle: 'mainly unreleased music',
+		text: "sometimes i do music. sometimes i finish songs. sometimes i release unfinished ones.",
+		link: 'https://soundcloud.com/underscore-opal/tracks',
+		year: '2020-now',
+		tags: ['music', 'wip', 'soundcloud']
+	},
+
+	//LFP
+	{
+		id: 'sound-002',
+		title: 'le fait du prince',
+		subtitle: 'an audio series',
+		text: 'i cut and clean samples for editing on the first season of this incredible audio series.',
+		link: 'https://www.youtube.com/@LeFaitduPrince',
+		year: '2024',
+		tags: ['series', 'audio', 'sound-design']
+	},
+
+	//max workspace
+	{
+		id: 'dev-001',
+		title: 'max-workspace',
+		text: 'max-workspace is a set of devices made with max msp. it is still in development and not always up to date. the goal of this project is to provide open source dsp material to anyone for free.',
+		link: 'https://github.com/op-a-l/max-workspace',
+		year: '2024-now',
+		tags: ['dsp', 'programming', 'audio']
+	},
+
+	//opal-sounds
+	{
+		id: 'dev-002',
+		title: 'this-website',
+		subtitle: 'very cool',
+		text: 'i made this website myself. i am probably not a great developer but i am having a good time doing it.',
+		link: 'https://github.com/op-a-l/opal-sounds',
+		year: '2024',
+		tags: ['programming', 'sveltekit', 'cool']
+	},
+
 
 	// {
 	//     id: "",

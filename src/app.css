@@ -6,7 +6,7 @@
 	--brand: #ff85cc;
 	--link: #4b75ff;
 	--surface-1: #f4ffeb;
-	--text-1: #25041c;
+	--text-1: #1f0a19;
 	--accent: #6ae864;
 	--light: #a790a799;
 }
@@ -14,7 +14,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--brand: #6ae864;
-		--surface-1: #25041c;
+		--surface-1: #0F0300;
 		--text-1: #f4ffeb;
 		--accent: #ff85cc;
 		--link: #829fff;

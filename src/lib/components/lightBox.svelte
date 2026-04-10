@@ -32,7 +32,6 @@
 		font-family: var(--font-geometric-humanist);
 		background-image: var(--noise-filter-2);
 		box-shadow: var(--inner-shadow-4);
-		/* position: relative; */
 		z-index: 1;
 		width: 100%;
 		padding: var(--size-3);

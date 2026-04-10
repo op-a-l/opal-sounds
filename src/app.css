@@ -3,20 +3,20 @@
 
 /* themes */
 :root {
-	--brand: #ff75ff;
+	--brand: #ff85cc;
 	--link: #4b75ff;
-	--surface-1: #f6f0ed;
-	--text-1: #222222;
-	--accent: #3cff3c;
+	--surface-1: #f4ffeb;
+	--text-1: #25041c;
+	--accent: #6ae864;
 	--light: #a790a799;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--brand: #3cff3c;
-		--surface-1: #222222;
-		--text-1: #f6f0ed;
-		--accent: #ff75ff;
+		--brand: #6ae864;
+		--surface-1: #25041c;
+		--text-1: #f4ffeb;
+		--accent: #ff85cc;
 		--link: #829fff;
 	}
 }

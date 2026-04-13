@@ -1,6 +1,1 @@
-there is no mobile version yet. I am not sure to do one someday.
-
-### Colors
-
-- Made with Coolors
-  - [This](https://coolors.co/ff75ff-3cff3c-222222-f6f0ed-a790a7) is the palette used
+I am **rebuilding** my website right now (26-04-13) to make it **look amazing**, have a **blog** and a **project database** so it is futureproof. I am not a developper, this is my hobby.

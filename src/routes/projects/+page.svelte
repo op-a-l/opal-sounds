@@ -42,9 +42,6 @@
 <style>
 
     .head{
-        background-color: red;
-
-
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -63,11 +60,11 @@
     
     .projectItem{
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         gap: var(--size-5);
         width: 100%;
-        
+
     }
 
     main{

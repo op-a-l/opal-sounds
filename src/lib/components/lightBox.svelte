@@ -50,21 +50,6 @@
 		color: var(--accent);
 	}
 
-	.tags {
-		display: flex;
-		gap: var(--size-1);
-		margin-block: var(--size-1);
-	}
 
-	.tag {
-		font-size: var(--font-size-0);
-		color: var(--text);
-		font-weight: var(--font-weight-2);
-		background-color: var(--light);
-		border-radius: var(--radius-4);
-		padding-inline: var(--size-1);
-	}
-	.tag:hover{
-		transform: translate(1px, 1px);
-	}
+
 </style>

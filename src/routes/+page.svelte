@@ -8,6 +8,6 @@
 <main>
 	<Greetings />
 	<About />
-	<Projects />
+	<!-- <Projects /> -->
 	<Services />
 </main>

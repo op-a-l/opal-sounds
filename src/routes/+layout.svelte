@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Navbar from '$lib/global/navbar.svelte';
+	// import Navbar from '$lib/global/navbar.svelte';
 	import Foot from '$lib/global/foot.svelte';
 	import '$lib/app.css';
 </script>
@@ -7,8 +7,8 @@
 <header class="site-header">
   <a href="/" class="logo">/</a>
   <nav>
-    <a href="/projects">projects</a>
-    <a href="/#contact">contact</a>
+    <a href="/projects">/projects</a>
+    <a href="/#contact">/contact</a>
   </nav>
 </header>
 
@@ -32,23 +32,12 @@
     color: var(--brand);
     text-decoration: none;
     font-size: var(--font-size-3);
-	padding-inline: var(--size-4);
+	  padding-inline: var(--size-4);
   }
 
   nav {
     display: flex;
     gap: var(--size-5);
-  }
-
-  nav a {
-    color: var(--link);
-    text-decoration: none;
-    font-size: var(--font-size-1);
-    transition: color var(--transition-fast-2);
-  }
-
-  nav a:hover {
-    color: var(--brand);
   }
 
 </style>

@@ -12,7 +12,7 @@
 
 <section>
 	<div class="projectsList">
-		{#each projects as project}
+		{#each projects as project (project)}
 			<ul>
 				<li>
 					<button onclick={() => openLightBox(project)}>

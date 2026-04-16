@@ -9,11 +9,10 @@
 	<div class="flex">
 		<div class="content">
 			<p>
-				I compose and design sounds under the name <span class="name">_opal</span>.
-
-				My work explores how digital environments can evoke, transform and reinvent reality. Whether
-				through synths presets, Max patches or recorded textures, I aim to create expressive and
-				sensitive sounds anchored in listening.
+				I compose and design sounds under the name <span class="name">_opal</span>. My work explores
+				how digital environments can evoke, transform and reinvent reality. Whether through synths
+				presets, Max patches or recorded textures, I aim to create expressive and sensitive sounds
+				anchored in listening.
 			</p>
 		</div>
 	</div>
@@ -34,6 +33,12 @@
 		gap: var(--size-1);
 	}
 
+	span {
+		padding-inline: var(--size-2);
+		box-shadow: var(--inner-shadow-3);
+		border-radius: var(--radius-3);
+	}
+
 	p {
 		padding-bottom: var(--size-1);
 	}
@@ -51,6 +56,6 @@
 
 	.name {
 		color: var(--brand);
-		font-weight: var(--font-weight-3);
+		font-weight: var(--font-weight-6);
 	}
 </style>

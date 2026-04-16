@@ -1,12 +1,16 @@
 <script lang="ts">
-	import Navbar from '$lib/global/navbar.svelte';
+	// import Navbar from '$lib/global/navbar.svelte';
 	import Foot from '$lib/global/foot.svelte';
-	import '../app.css';
+	import '$lib/app.css';
 </script>
 
-<!-- <nav>
-    <Navbar />
-</nav> -->
+<header class="site-header">
+	<a href="/" class="logo">/home</a>
+	<nav>
+		<a href="/projects">/projects</a>
+		<!-- <a href="/#contact">/contact</a> -->
+	</nav>
+</header>
 
 <div class="centerContainer">
 	<slot />
@@ -15,3 +19,36 @@
 <footer>
 	<Foot />
 </footer>
+
+<style>
+	.site-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: sticky;
+		padding-block: var(--size-4);
+		top: 0;
+		left: 0;
+		background-color: var(--surface-1);
+		z-index: 10;
+		font-size: var(--font-size-2);
+	}
+
+	.logo {
+		font-weight: var(--font-weight-5);
+		color: var(--brand);
+		text-decoration: none;
+		/* font-size: var(--font-size-3); */
+		padding-inline: var(--size-4);
+	}
+
+	nav {
+		display: flex;
+		gap: var(--size-5);
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+	}
+</style>

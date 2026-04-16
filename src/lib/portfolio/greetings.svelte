@@ -3,7 +3,7 @@
 
 <section>
 	<div>
-		<h1>Hi, I am <span class="name">mathis</span> <br /> sound designer and composer</h1>
+		<h1>Hi, I am <span class="name">mathis</span> <br /> sound designer and music producer</h1>
 	</div>
 </section>
 

@@ -5,11 +5,11 @@
 </script>
 
 <header class="site-header">
-  <a href="/" class="logo">/</a>
-  <nav>
-    <a href="/projects">/projects</a>
-    <a href="/#contact">/contact</a>
-  </nav>
+	<a href="/" class="logo">/home</a>
+	<nav>
+		<a href="/projects">/projects</a>
+		<!-- <a href="/#contact">/contact</a> -->
+	</nav>
 </header>
 
 <div class="centerContainer">
@@ -21,23 +21,34 @@
 </footer>
 
 <style>
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+	.site-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: sticky;
+		padding-block: var(--size-4);
+		top: 0;
+		left: 0;
+		background-color: var(--surface-1);
+		z-index: 10;
+		font-size: var(--font-size-2);
+	}
 
-  .logo {
-    font-weight: var(--font-weight-5);
-    color: var(--brand);
-    text-decoration: none;
-    font-size: var(--font-size-3);
-	  padding-inline: var(--size-4);
-  }
+	.logo {
+		font-weight: var(--font-weight-5);
+		color: var(--brand);
+		text-decoration: none;
+		/* font-size: var(--font-size-3); */
+		padding-inline: var(--size-4);
+	}
 
-  nav {
-    display: flex;
-    gap: var(--size-5);
-  }
+	nav {
+		display: flex;
+		gap: var(--size-5);
+	}
 
+	footer {
+		position: absolute;
+		bottom: 0;
+	}
 </style>

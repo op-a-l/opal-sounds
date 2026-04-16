@@ -37,6 +37,7 @@
 h1 {
 	font-size: var(--font-size-5);
 	font-weight: var(--font-weight-5);
+	font-family: var(--font-geometric-humanist);
 }
 
 h2 {
@@ -88,7 +89,7 @@ a:hover {
 hr {
 	padding: 0;
 	margin-block: var(--size-1);
-	background-color: rgba(1, 1, 1, 0.1);
+	background-color: var(--light);
 	/* margin-bottom: var(--size-2); */
 	box-shadow: var(--inner-shadow-4);
 }

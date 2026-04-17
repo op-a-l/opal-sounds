@@ -4,7 +4,7 @@
 
 <style>
 	section {
-		padding: var(--size-5);
+		padding: var(--size-4);
 		color: var(--link);
 	}
 

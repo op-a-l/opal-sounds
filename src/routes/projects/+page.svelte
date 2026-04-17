@@ -3,10 +3,9 @@
 </script>
 
 <section>
-	<h1>/projects</h1>
-	<hr />
-
-	<ul>
+	<div class="projectList">
+		<h1>/projects</h1>
+		<hr />
 		{#each data.projects as project (project.slug)}
 			<a href="/projects/{project.slug}">
 				<li class="projectItem">
@@ -34,15 +33,11 @@
 			</a>
 			<hr />
 		{/each}
-	</ul>
+	</div>
 </section>
 
 <style>
 	a {
-		color: var(--text);
-	}
-
-	a:hover {
 		color: var(--text);
 	}
 
@@ -54,29 +49,48 @@
 		text-decoration: underline;
 	}
 
-	ul {
-		margin-top: var(--size-5);
-		display: flex;
-		flex-flow: column;
-		margin: none;
-		padding: none;
-		gap: var(--size-6);
-	}
-
-	li {
-		padding: var(--size-2);
-		border-radius: var(--radius-1);
-	}
-
 	li:hover {
 		/* transform: translate(-1px, -1px); */
 		box-shadow: var(--shadow-3);
 	}
 
-	.projectItem {
+	section {
 		width: 100%;
+
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	h1 {
+		align-self: start;
+
+		font-weight: var(--font-weight-6);
+	}
+
+	.projectList {
+		margin-top: var(--size-5);
+		display: flex;
+		flex: 1;
+		flex-flow: column;
+
+		margin: none;
+		padding-left: none;
+
+		gap: var(--size-3);
+
+		/* width: 70%; */
+	}
+
+	.projectItem {
+		padding-inline: var(--size-2);
+		border-radius: var(--radius-1);
 		display: flex;
 		flex-flow: row;
+
+		width: 100%;
+
+		padding-left: var(--size-6);
 	}
 
 	.head {
@@ -94,13 +108,5 @@
 	.tag:hover {
 		background-color: var(--accent);
 		color: var(--text);
-	}
-
-	section {
-		display: flex;
-		flex-flow: column;
-		width: var(--size-15);
-		justify-items: center;
-		gap: var(--size-5);
 	}
 </style>

@@ -4,29 +4,38 @@
 	import '$lib/app.css';
 </script>
 
-<header class="site-header">
-	<a href="/" class="logo">/home</a>
-	<nav>
-		<a href="/projects">/projects</a>
-		<!-- <a href="/#contact">/contact</a> -->
-	</nav>
-</header>
+<section>
+	<header class="site-header">
+		<a href="/" class="logo">/home</a>
+		<nav>
+			<a href="/projects">/projects</a>
+			<!-- <a href="/#contact">/contact</a> -->
+		</nav>
+	</header>
 
-<div class="centerContainer">
-	<slot />
-</div>
+	<div class="centerContainer">
+		<slot />
+	</div>
 
-<footer>
-	<Foot />
-</footer>
+	<footer>
+		<Foot />
+	</footer>
+</section>
 
 <style>
+	section {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
 	.site-header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		position: sticky;
 		padding-block: var(--size-4);
+		padding-inline: var(--size-4);
 		top: 0;
 		left: 0;
 		background-color: var(--surface-1);
@@ -48,7 +57,6 @@
 	}
 
 	footer {
-		position: absolute;
 		bottom: 0;
 	}
 </style>

@@ -2,13 +2,13 @@ This website is a never ending wip. This is the place where I showcase my work a
 
 #### Coming next
 
-- Search bar on the project page to search by tag, name or date.
-- More art content ^^.
-- Better styling.
+Search bar on the project page to search by tag, name or date.
+More art content ^^.
+Better styling.
 
 #### Tools used
 
-I decided to go with **sveltekit** because it seemed like a nice beginner friendly option while being super powered. I am happy with it. 
+I decided to go with **sveltekit** because it seemed like a nice beginner friendly option while being super powered. I am happy with it.
 The style is partly made with **open props**. It helps me understand how global css styling works.
 The colors were made using **coolors**. I love pink and green. 
 Favicon made with **favicon.io**.

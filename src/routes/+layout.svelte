@@ -28,6 +28,7 @@
 		flex-direction: column;
 		gap: var(--size-1);
 		width: 100%;
+		height: 100vh;
 	}
 
 	.pageContent {
@@ -35,6 +36,7 @@
 		display: flex;
 		flex-direction: column;
 		align-self: center;
+		flex: 1;
 	}
 
 	.site-header {

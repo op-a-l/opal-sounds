@@ -29,7 +29,7 @@
 
 @media (min-width: 750px) {
 	:root {
-		--global-width: 70%;
+		--global-width: var(--size-15);
 	}
 }
 
@@ -37,7 +37,6 @@
 :root {
 	font-family: var(--font-humanist);
 	font-weight: var(--font-weight-5);
-	line-height: var(--font-lineheight-4);
 }
 
 ::selection {
@@ -46,6 +45,11 @@
 }
 
 /* text */
+
+:root {
+	line-height: var(--font-lineheight-4);
+}
+
 h1 {
 	font-size: var(--font-size-5);
 	font-weight: var(--font-weight-5);

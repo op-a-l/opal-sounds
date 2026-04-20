@@ -9,10 +9,12 @@
 	<div class="flex">
 		<div class="content">
 			<p>
-				I compose and design sounds under the name <span class="name">_opal</span>. My work explores
-				how digital environments can evoke, transform and reinvent reality. Whether through synths
-				presets, Max patches or recorded textures, I aim to create expressive and sensitive sounds
-				anchored in listening.
+				I design <b>modern</b> and <b>experimental</b> sound assets from scratch.
+			</p>
+			<p>
+				I work along with instrument makers and artists to create cutting-edge sounds. I can adapt
+				to various genres from experimental electronic to indie pop. I move fast, adapt well and
+				don't recycle.
 			</p>
 		</div>
 	</div>
@@ -21,9 +23,10 @@
 <style>
 	section {
 		backdrop-filter: blur(3px);
-		border-radius: var(--radius-3);
+		border-radius: var(--radius-1);
 		text-align: justify;
 		margin-bottom: var(--size-9);
+		width: 100%;
 	}
 
 	.flex {

@@ -27,6 +27,9 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		width: 100%;
+		justify-content: center;
+		/* padding-inline: var(--size-relative-14); */
 	}
 
 	.site-header {
@@ -51,6 +54,12 @@
 		padding-inline: var(--size-4);
 	}
 
+	header {
+		border-bottom: solid 1px var(--light);
+		align-self: center;
+		width: 70%;
+	}
+
 	nav {
 		display: flex;
 		gap: var(--size-5);
@@ -58,5 +67,17 @@
 
 	footer {
 		bottom: 0;
+		width: 70%;
+		align-self: center;
 	}
+
+	/* container */
+
+	/* .centerContainer {
+		display: flex;
+		flex-direction: column;
+		width: 33%;
+		flex: 1;
+		justify-content: center;
+	} */
 </style>

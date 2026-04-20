@@ -24,8 +24,6 @@
 :root {
 	font-family: var(--font-humanist);
 	font-weight: var(--font-weight-5);
-
-	/* margin: var(--size-3); */
 }
 
 ::selection {
@@ -94,7 +92,6 @@ hr {
 	box-shadow: var(--inner-shadow-4);
 }
 
-/* container */
 .centerContainer {
 	display: flex;
 	flex: 1;
@@ -112,4 +109,9 @@ hr {
 		justify-content: center;
 		width: 100%;
 	}
+}
+
+/* Testing/debug */
+.red {
+	background-color: red;
 }

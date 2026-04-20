@@ -4,7 +4,7 @@
 
 <section>
 	<div class="projectList">
-		<h1>/projects</h1>
+		<h1>Projects</h1>
 		<hr />
 		{#each data.projects as project (project.slug)}
 			<a href="/projects/{project.slug}">
@@ -45,9 +45,9 @@
 		color: var(--link);
 	}
 
-	h2:hover {
+	/* h2:hover {
 		text-decoration: underline;
-	}
+	} */
 
 	li:hover {
 		/* transform: translate(-1px, -1px); */
@@ -55,8 +55,6 @@
 	}
 
 	section {
-		width: 100%;
-
 		display: flex;
 		flex-flow: column;
 		align-items: center;
@@ -64,8 +62,9 @@
 
 	h1 {
 		align-self: start;
+		padding-block: var(--size-9);
 
-		font-weight: var(--font-weight-6);
+		/* font-weight: var(--font-weight-6); */
 	}
 
 	.projectList {
@@ -73,6 +72,7 @@
 		display: flex;
 		flex: 1;
 		flex-flow: column;
+		width: 100%;
 
 		margin: none;
 		padding-left: none;

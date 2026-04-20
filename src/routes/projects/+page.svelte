@@ -3,12 +3,13 @@
 </script>
 
 <section>
-	<div class="projectList">
+	<div class="title">
 		<h1>Projects</h1>
-		<hr />
+	</div>
+	<div class="projectList">
 		{#each data.projects as project (project.slug)}
 			<a href="/projects/{project.slug}">
-				<li class="projectItem">
+				<div class="projectItem">
 					<div class="head">
 						<h2>{project.meta.title ?? project.slug}</h2>
 						<!-- {#if project.meta.description}
@@ -29,16 +30,58 @@
 					{#if project.meta.date}
 						<span>{project.meta.date}</span>
 					{/if}
-				</li>
+				</div>
+				<hr />
 			</a>
-			<hr />
 		{/each}
 	</div>
 </section>
 
 <style>
+	section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		/* background-color: red; */
+	}
+
+	.title h1 {
+		align-self: start;
+		padding-block: var(--size-9);
+
+		font-weight: var(--font-weight-5);
+	}
+
+	.projectList {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.projectItem {
+		min-height: var(--size-9);
+		padding-block: var(--size-4);
+		width: 100%;
+		padding-inline: var(--size-2);
+
+		border-radius: var(--radius-1);
+
+		display: flex;
+	}
+
+	.projectItem:hover {
+		/* transform: translate(-1px, -1px); */
+		box-shadow: var(--shadow-3);
+	}
+
+	hr {
+		height: 1px;
+	}
+
 	a {
 		color: var(--text);
+		width: 100%;
 	}
 
 	h2 {
@@ -48,50 +91,6 @@
 	/* h2:hover {
 		text-decoration: underline;
 	} */
-
-	li:hover {
-		/* transform: translate(-1px, -1px); */
-		box-shadow: var(--shadow-3);
-	}
-
-	section {
-		display: flex;
-		flex-flow: column;
-		align-items: center;
-	}
-
-	h1 {
-		align-self: start;
-		padding-block: var(--size-9);
-
-		/* font-weight: var(--font-weight-6); */
-	}
-
-	.projectList {
-		margin-top: var(--size-5);
-		display: flex;
-		flex: 1;
-		flex-flow: column;
-		width: 100%;
-
-		margin: none;
-		padding-left: none;
-
-		gap: var(--size-3);
-
-		/* width: 70%; */
-	}
-
-	.projectItem {
-		padding-inline: var(--size-2);
-		border-radius: var(--radius-1);
-		display: flex;
-		flex-flow: row;
-
-		width: 100%;
-
-		padding-left: var(--size-6);
-	}
 
 	.head {
 		width: 100%;
@@ -103,10 +102,5 @@
 	.tags {
 		display: flex;
 		flex-flow: row;
-	}
-
-	.tag:hover {
-		background-color: var(--accent);
-		color: var(--text);
 	}
 </style>

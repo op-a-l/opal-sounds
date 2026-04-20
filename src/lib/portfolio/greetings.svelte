@@ -8,9 +8,14 @@
 </section>
 
 <style>
+	section {
+		width: 100%;
+	}
+
 	div {
 		display: flex;
-		min-height: 30vh;
+		/* min-height: 30vh; */
+		padding-block: var(--size-10);
 		gap: var(--size-1);
 		align-items: center;
 	}

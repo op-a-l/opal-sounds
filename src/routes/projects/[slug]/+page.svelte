@@ -185,5 +185,8 @@
 		margin-top: var(--size-5);
 		line-height: var(--font-lineheight-4);
 		font-size: var(--font-size-2);
+		display: flex;
+		flex-direction: column;
+		gap: var(--size-5);
 	}
 </style>

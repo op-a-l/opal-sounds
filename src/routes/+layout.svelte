@@ -13,7 +13,7 @@
 		</nav>
 	</header>
 
-	<div class="centerContainer">
+	<div class="pageContent">
 		<slot />
 	</div>
 
@@ -26,7 +26,17 @@
 	section {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
+		gap: var(--size-1);
+		width: 100%;
+		height: 100vh;
+	}
+
+	.pageContent {
+		width: var(--global-width);
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		flex: 1;
 	}
 
 	.site-header {
@@ -43,20 +53,29 @@
 		font-size: var(--font-size-2);
 	}
 
+	header {
+		border-bottom: solid 1px var(--light);
+		align-self: center;
+		width: 100%;
+	}
+
 	.logo {
 		font-weight: var(--font-weight-5);
 		color: var(--brand);
 		text-decoration: none;
 		/* font-size: var(--font-size-3); */
-		padding-inline: var(--size-4);
+		padding-left: var(--size-4);
 	}
 
 	nav {
 		display: flex;
 		gap: var(--size-5);
+		padding-right: var(--size-4);
 	}
 
 	footer {
 		bottom: 0;
+		width: 100%;
+		/* align-self: center; */
 	}
 </style>

@@ -187,6 +187,6 @@
 		font-size: var(--font-size-2);
 		display: flex;
 		flex-direction: column;
-		gap: var(--size-5);
+		text-align: justify;
 	}
 </style>

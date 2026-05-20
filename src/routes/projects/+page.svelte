@@ -42,12 +42,16 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
+		max-width: var(--size-content-3);
+		margin-inline: auto;
+		padding: var(--size-5) var(--size-3);
 		/* background-color: red; */
 	}
 
 	.title h1 {
 		align-self: start;
-		padding-block: var(--size-9);
+		padding-top: var(--size-9);
 
 		font-weight: var(--font-weight-5);
 	}

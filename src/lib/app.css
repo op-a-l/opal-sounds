@@ -116,14 +116,11 @@ hr {
 	box-shadow: var(--inner-shadow-4);
 }
 
-/* .centerContainer {
-	display: flex;
+.centerContainer {
 	flex: 1;
-	flex-direction: row;
-	justify-content: center;
-	width: 100%;
-	padding-inline: var(--size-1);
-} */
+	width: var(--global-width);
+	margin-inline: auto;
+}
 
 /* @media (min-width: 750px) {
 	.centerContainer {

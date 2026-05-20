@@ -14,7 +14,5 @@
 	main {
 		display: flex;
 		flex-direction: column;
-		align-self: center;
-		width: var(--global-width);
 	}
 </style>

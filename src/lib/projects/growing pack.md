@@ -33,3 +33,9 @@ This is a small sample pack inspired by the workflows of Mr. Bill and KOAN Sound
 - 8 tight snares
 - 2 tiny snares
 - 2 very bad snares.
+
+### License and usage
+
+Free to use in any project, including commercial ones. Credit appreciated but not required. Redistribution or resale of the pack itself, in whole or in part, is not permitted.
+
+Please have fun with it. Feedback on my work are welcome.

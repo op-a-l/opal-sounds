@@ -1,5 +1,5 @@
 ---
-title: 'modal exploration - Arturia'
+title: 'Arturia - Modal Exploration'
 description: 'Hyperpop sound design for an Arturia expansion on Pigments. Demo made using presets I made for the expansion.'
 date: '2025-06'
 client: Arturia

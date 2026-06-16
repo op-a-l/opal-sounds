@@ -1,5 +1,5 @@
 ---
-title: pigments 7 factory presets - Arturia
+title: Arturia - Pigments 7 factory presets
 date: 2025-12
 client: Arturia
 credits:

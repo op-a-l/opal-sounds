@@ -1,5 +1,5 @@
 ---
-title: growing pack
+title: Growing Pack
 date: 2026-05
 client:
 credits:

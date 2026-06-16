@@ -7,9 +7,9 @@ tags:
   - Arturia
   - Pigments
   - Presets
-audio:
+audio: /ChaoticVoicesP7.mp3
 video:
-description: 'Arturia asked me to do some presets for the official release of pigments 7. I had the chance to make presets along with Popbot and Mr. Bill.'
+description: 'Arturia asked me to do some presets for the official release of pigments 7. I had the chance to make presets along with Popbot and Mr. Bill. Demo made using a preset I made called Chaotic Voices.'
 ---
 
 I was asked to build brand new presets with the new features from pigments 7 for its release. The presets were inspired by experimental electornic, bass music and very modern hip hop. It was a challenging and pleasent collaboration with Arturia. Everyone with a Pigments licence can access to the presets I've made.

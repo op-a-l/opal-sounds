@@ -57,8 +57,10 @@ h1 {
 }
 
 h2 {
+	margin-block: var(--size-3);
 	font-size: var(--font-size-3);
 	font-weight: var(--font-weight-6);
+	font-family: var(--font-monospace-code);
 }
 
 h3 {
@@ -77,6 +79,7 @@ h4 {
 p {
 	font-size: var(--font-size-2);
 	font-weight: var(--font-weight-4);
+	margin-bottom: var(--size-2);
 }
 
 a:hover {

@@ -8,7 +8,7 @@ tags:
   - Snare
 audio: /growingSnaresDemo.mp3
 video:
-description: 'This is my very own sample and audio assets pack. Current version is 0.1, snares only'
+description: 'This is my very own sample and audio assets pack. Current version is 0.1, snares only.'
 ---
 
 ## Changelog v0.1

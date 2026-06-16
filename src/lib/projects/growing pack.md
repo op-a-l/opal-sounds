@@ -6,7 +6,7 @@ credits:
 tags:
   - Pack
   - Snare
-audio:
+audio: /growingSnaresDemo.mp3
 video:
 description: 'This is my very own sample and audio assets pack. Current version is 0.1, snares only'
 ---

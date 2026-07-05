@@ -12,10 +12,12 @@
 				I design <b>modern</b> and <b>experimental</b> sound assets from scratch.
 			</p>
 			<p>
-				I work along with instrument makers and artists to create cutting-edge sounds. I can adapt
-				to various genres from experimental electronic to indie pop. I move fast, adapt well and
-				don't recycle.
+				I'm a french sound designer and specialize in random driven sounds. I work for software
+				developers and artists to help them create unique sound assets for any project. Discovering
+				new tools and techniques is my way of making and understanding music. I think new tools are
+				the starting point of new music.
 			</p>
+			<a href=""></a>
 		</div>
 	</div>
 </section>

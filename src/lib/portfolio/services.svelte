@@ -7,7 +7,8 @@
 
 <section>
 	<p>
-		I offer sound design and production services for artists, audio software developers and media projects.
+		I offer sound design and production services for artists, audio software developers and media
+		projects.
 	</p>
 
 	<p>
@@ -15,9 +16,9 @@
 	</p>
 
 	<ul>
-		<li>custom presets</li>
-		<li>custom samples</li>
+		<li>custom presets, samples, IR, watvetables</li>
 		<li>demo tracks for audio tools</li>
+		<li>music production</li>
 	</ul>
 </section>
 
@@ -30,7 +31,7 @@
 	li {
 		margin: 0;
 		padding: 0;
-		list-style:  armenian;
+		list-style: armenian;
 		font-weight: var(--font-weight-5);
 	}
 

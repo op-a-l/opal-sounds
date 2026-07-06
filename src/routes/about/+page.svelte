@@ -16,7 +16,7 @@
 			I make.
 		</p>
 		<p>
-			I starded making music on my computer when I was 17 and quickly got obsessed with sound design
+			I started making music on my computer when I was 17 and quickly got obsessed with sound design
 			and synthesis to the point I couldn't do anything but tweaking knobs and make strange noises.
 			Along my way I met nice musicians and sound designers at college, discovered Mr. Bill, KOAN
 			SOUND and discord communities. I felt like home on discord.

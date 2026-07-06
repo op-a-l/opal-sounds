@@ -17,7 +17,6 @@
 				new tools and techniques is my way of making and understanding music. I think new tools are
 				the starting point of new music.
 			</p>
-			<a href=""></a>
 		</div>
 	</div>
 </section>

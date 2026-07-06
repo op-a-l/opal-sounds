@@ -8,7 +8,7 @@
 	<header class="site-header">
 		<a href="/" class="logo">/home</a>
 		<nav>
-			<!-- <a href="/about">/about</a> -->
+			<a href="/about">/about</a>
 			<a href="/projects">/projects</a>
 			<!-- <a href="/#contact">/contact</a> -->
 		</nav>
